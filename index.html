@@ -16,17 +16,32 @@
 </head>
 <body>
     <header>
-<h1>Rubber<span>&#183;</span>City<span>&#183;</span>Toys</h1>
-<a href="https://www.instagram.com/rubbercitytoys/" target="_blank">
-<img src="Images/ig-logo.svg" alt="instagram logo" class="ig-logo"></img></a>
+    <h1>Rubber<span>&#183;</span>City<span>&#183;</span>Toys</h1>
+    <a href="https://www.instagram.com/rubbercitytoys/" target="_blank">
+    <img src="Images/ig-logo.svg" alt="instagram logo" class="ig-logo"></img></a>
 </header>
-
-<img src="Images/twitterDoom-mobile.png">
+<div class="upcoming">
+    upcoming releases
+    <div><img src="images/MurderMachines-small.png" alt="package design"></div>
+</div>
+<img src="Images/twitterDoom-mobile.png" class="twitterbot" alt="twitter doom bot">
 <footer>
     <div>made by <a href="https://akrondandd.com/">Akron Design and Development</a></div>
 </footer>
 </body>
 <style>
+    .upcoming {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.upcoming div {
+    text-align: center;
+}
+.upcoming img {
+    width: 50px;
+    margin: 15px auto;
+}
 img.ig-logo {
     height: 21px;
     width: 21px;
@@ -47,7 +62,7 @@ header a {
     color: white;text-transform: uppercase;
     margin-left: 20px;}
     body{background: deeppink; margin: 0; font-family: 'Dosis', sans-serif;}
-    img{width: 100%;}
+    .twitterbot{width: 100%;}
     footer div{
     color:white;
     font-size: 10px;
