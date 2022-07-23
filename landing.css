@@ -45,9 +45,15 @@ footer div a{
     font-size: 10px;
     text-align: center;
 }
-    .twitterbot {
-        position: absolute;
-    }
+.5050background {
+position: absolute;
+    top: 10%;
+    right: 0;
+    background: black;
+    width: 75%;
+    padding: 2%;
+    color: white;
+}
     @media only screen and (min-width: 821px){
     .twitterbot{
     top: 0;
