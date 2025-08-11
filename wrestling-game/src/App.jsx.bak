@@ -1,0 +1,22 @@
+import React, { useState } from "react";
+import gameData from "./gameData";
+import Scene from "./components/Scene";
+import "./styles.css";
+
+function App() {
+  const [currentKey, setCurrentKey] = useState("start");
+  const scene = gameData[currentKey];
+
+  const handleChoice = (nextKey) => {
+    setCurrentKey(nextKey);
+  };
+
+  return (
+    <div className="app">
+      <h1>Text Adventure</h1>
+      <Scene scene={scene} onChoice={handleChoice} />
+    </div>
+  );
+}
+
+export default App;

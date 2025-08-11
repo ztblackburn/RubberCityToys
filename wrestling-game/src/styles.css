@@ -1,0 +1,48 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: #00ff00;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: black;
+  border: 2px solid #00ff00;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #00ff00;
+  padding-bottom: 0.5rem;
+}
+
+.scene .description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  white-space: pre-wrap;
+}
+
+.options button {
+  background: black;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.options button:hover {
+  background: #00ff00;
+  color: black;
+}
